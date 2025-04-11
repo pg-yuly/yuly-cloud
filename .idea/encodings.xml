@@ -5,5 +5,13 @@
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yuly-dependencies/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yuly-dependencies/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuly-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuly-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuly-framework/yuly-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuly-framework/yuly-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuly-framework/yuly-spring-boot-starter-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuly-framework/yuly-spring-boot-starter-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuly-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuly-gateway/src/main/resources" charset="UTF-8" />
   </component>
 </project>
