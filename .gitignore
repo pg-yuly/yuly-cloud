@@ -3,14 +3,15 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+.flattened-pom.xml
+
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea
 *.iws
 *.iml
 *.ipr
+*.class
+target/*
 
 ### Eclipse ###
 .apt_generated
