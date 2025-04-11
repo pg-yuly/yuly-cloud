@@ -12,6 +12,8 @@
 
     <modules>
         <module>yuly-dependencies</module>
+        <module>yuly-framework</module>
+        <module>yuly-gateway</module>
     </modules>
 
     <properties>
@@ -30,6 +32,18 @@
         <!-- 项目编码 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.yuly</groupId>
+                <artifactId>yuly-dependencies</artifactId>
+                <version>${revision}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <!-- 统一插件管理 -->
