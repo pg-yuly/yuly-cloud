@@ -30,7 +30,7 @@ public class Response<T> implements Serializable {
     /**
      * 是否成功，默认为 true
      */
-    private boolean isSuccess = true;
+    private boolean success = true;
 
     /**
      * 响应数据
