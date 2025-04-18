@@ -1,0 +1,2 @@
+com.yuly.framework.biz.context.config.ContextAutoConfiguration
+com.yuly.framework.biz.context.config.FeignContextAutoConfiguration
