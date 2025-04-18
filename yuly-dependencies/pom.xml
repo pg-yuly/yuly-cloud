@@ -11,7 +11,7 @@
     <description>基础 bom 文件，管理整个项目的依赖版本</description>
 
     <properties>
-        <revision>0.0.1-SNAPSHOT</revision>
+        <revision>1.0.0</revision>
         <flatten-maven-plugin.version>1.6.0</flatten-maven-plugin.version>
         <!-- 统一依赖管理 -->
         <spring.boot.version>3.4.1</spring.boot.version>
@@ -23,6 +23,7 @@
         <!-- 工具类相关 -->
         <lombok.version>1.18.36</lombok.version>
         <hutool-5.version>5.8.35</hutool-5.version>
+        <jackson.version>2.16.1</jackson.version>
         <!-- Sa-Token 权限认证 -->
         <sa-token.version>1.38.0</sa-token.version>
     </properties>
@@ -79,6 +80,16 @@
                 <groupId>com.yuly</groupId>
                 <artifactId>yuly-common</artifactId>
                 <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
 
             <!-- Sa-Token 权限认证 -->

@@ -12,6 +12,7 @@
     <modules>
         <module>yuly-common</module>
         <module>yuly-spring-boot-starter-mybatis</module>
+        <module>yuly-spring-boot-starter-biz-operationlog</module>
     </modules>
 
     <artifactId>yuly-framework</artifactId>

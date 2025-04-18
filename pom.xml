@@ -18,7 +18,7 @@
 
     <properties>
         <!-- 项目版本号 -->
-        <revision>0.0.1-SNAPSHOT</revision>
+        <revision>1.0.0</revision>
         <!-- JDK 版本 -->
         <java.version>17</java.version>
         <!-- Maven 相关 -->
