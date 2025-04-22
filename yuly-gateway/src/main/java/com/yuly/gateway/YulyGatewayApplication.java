@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * TODO
+ * 网关启动类
  *
  * @author 于立洋
  * @version 1.0
